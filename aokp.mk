@@ -1,5 +1,5 @@
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := GT-I9070
@@ -9,7 +9,6 @@ TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Inherit some common AOKP stuff.
-$(call inherit-product, vendor/aokp/configs/gsm.mk)
 $(call inherit-product, vendor/aokp/configs/common.mk)
 
 
