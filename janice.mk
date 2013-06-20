@@ -2,11 +2,6 @@
 $(call inherit-product, device/samsung/u8500-common/common.mk)
 
 
-ifneq ($(TARGET_SCREEN_HEIGHT),800)
-# Call cm.mk because somehow it's not being called!
-$(call inherit-product, device/samsung/janice/aokp.mk)
-endif
-
 LOCAL_PATH := device/samsung/janice
 
 # Overlay
